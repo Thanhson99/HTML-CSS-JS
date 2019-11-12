@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>3D clock</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="stylesheet" type="text/css" href="./flipclock.css">
+	</head>
+	<body>
+		<div class="clock"></div>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script type="text/javascript" src="./flipclock.js"></script>
+		<script type="text/javascript">
+			var clock = $('.clock').FlipClock({
+				clockFace: 'TwelveHourClock'
+			}); //12h
+			// var clock = $('.clock').FlipClock({
+			// 	clockFace: 'TwentyFourHourClock'
+			// }); // 24h
+		</script>
+	</body>
+</html>

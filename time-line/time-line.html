@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8">
+		<title>Time Line</title>
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: "Montserrat", sans-serif; 
+			}
+			.container{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			ul{
+				width: 500px;
+				height: auto;;
+				margin-top: 100px;
+				border: 0px solid #111;
+				padding: 10px;
+				list-style: none;
+			}
+			ul, li{
+				padding-bottom: 50px;
+			}
+			ul:before{
+				content: "";
+				position: absolute;
+				width: 5px;
+				background: #0074e1;
+				height: 95%;
+				left: 0;
+				top: 0;
+			}
+			ul li:before{
+				content: "";
+				position: absolute;;
+				width: 20px;
+				height: 20px;
+				background: #f79e02;
+				left: -8px;
+				margin-top: 20px;
+				border-radius: 50%;
+			}
+			ul li div{
+				padding: 20px;
+				/*padding-bottom: 30px;*/
+				margin-left: 30px;
+				position: relative;
+				background: #6cdaee;
+				box-shadow: 0 15px 15px -10px #6cdaee;
+			}
+			ul li div h1{
+				margin-bottom: 20px;
+			}
+			ul li div:before{
+				content: "";
+				position: absolute;
+				left: -30px;
+				top: 15px;
+				border: 15px solid transparent;
+				border-right: 15px solid #6cdaee;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<ul>
+				<li>
+					<div>
+						<h1>1999 - 2005</h1>
+						<p>Ăn hại</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h1>2006 - 2010</h1>
+						<p>Học cấp 1, lớp 5 thích 1 người, vẫn ăn hại</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h1>2011 - 2014</h1>
+						<p>Học cấp 2, lớp 7 bết bát do 1 thằng dẫn độ về với anh sóc, vẫn ăn hại</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h1>2015 - 2018</h1>
+						<p>Cấp 3 lo học hơn, thích 1 người đáng ra không nên thích :(, ăn hại</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h1>2019 - 2020</h1>
+						<p>Tán gái đéo được, vẫn ăn hại:(</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
