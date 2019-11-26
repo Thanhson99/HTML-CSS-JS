@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bar</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section>
+			<header>
+				<a href="#" class="logo">Thành Sơn</a>
+				<a class="toggle">Menu</a>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Team</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</header>
+		</section>
+		<script
+		  src="https://code.jquery.com/jquery-3.4.1.js"
+		  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		  crossorigin="anonymous">
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+	  			$('.toggle').click(function(){
+	  				$('ul').toggleClass('active')
+	  			})
+	  		})
+		</script>
+	</body>
+</html>
