@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Button click</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+	</head>
+	<body>
+		<button>Click me</button>
+		<h1></h1>
+		<p>Tối đa click 10 lần !</p>
+		<script type="text/javascript">
+			var button = document.getElementsByTagName('button')[0];
+			var display = document.getElementsByTagName('h1')[0];
+			var count = 0;
+			button.onclick = function(){
+				count++;
+				if(count === 11){
+					count = 0;
+				}
+				display.innerHTML = 'Bạn đã click chuột ' + count + ' lần!';
+			}
+		</script>
+	</body>
+</html>

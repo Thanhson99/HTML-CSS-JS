@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'inherit', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*/////////////////////////////////*/
+.container{
+	display: flex;
+	margin: 120px 550px; 
+}
+
+.container .phone{
+	position: relative;
+}
+
+.container .phone img:nth-child(2){
+	position: absolute;
+	margin-top: 100px;
+	margin-left: -303px;
+}
+
+/*///////////////////////////////*/
+
+.container .right{
+	text-align: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.container .right .form-login{
+	border: 1px solid #bbb;
+	height: 380px;
+	width: 350px;
+}
+
+.container .right .form-login h1{
+	margin: 35px;
+}
+
+.container .right .form-login input{
+	font-size: 12px;
+	height: 30px;
+	width: 250px;
+	margin: 5px;
+	border-radius: 2px;
+	border: 1px solid #bbb;
+	padding: 10px;
+}
+
+.container .right .form-login #btn-login{
+	margin: 15px;
+	color: #fff;
+	background: #0df;
+	font-weight: 700;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.container .right .form-login .or{
+	position: relative;
+	display: flex;
+	margin: 0 30px;
+}
+
+.container .right .form-login .or h2{
+	border-bottom: 1px solid #bbb;
+	width: 100px;
+	margin: 0 20px;
+}
+
+.container .right .form-login .or p{
+	position: absolute;
+	margin: -8px 130px;
+	font-size: 15px;
+	color: #888;
+	font-weight: 600;
+}
+
+.container .right .form-login a:nth-child(6){
+	position: absolute;
+	margin: 40px -70px;
+	font-size: 15px;
+}
+
+.container .right .form-login a:nth-child(7){
+	position: absolute;
+	margin: 80px -45px;
+	font-size: 12px;
+}
+
+/*////////////////////////////////////////*/
+
+.container .right .sign-up{
+	margin: 20px 0;
+	border: 1px solid #bbb;
+	height: 65px;
+	padding: 25px;
+	font-size: 15px;
+}
+
+/*/////////////////////////////////////////*/
+
+.container .right p:nth-child(3){
+	margin: 20px;
+	font-size: 14px;
+}
+
+.container .right .app{
+	display: flex;
+}
+
+.container .right .app img{
+	width: 150px;
+	margin: -5px 10px;
+}
+
+/*////////////////////////////////*/
+
+.other{
+	margin-left: 350px;
+	display: inline-flex;
+	font-size: 12px;
+}
+
+.other a{
+	margin: 0 10px;
+}
+
+.other p{
+	margin-left: 150px;
+	color: #aaa;
+}

@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Helvetica", sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*////////////////////////////////*/
+.logo{
+	display: flex;
+	background: #4267b2;
+	color: #fff;
+	height: 80px;
+}
+
+.logo .login{
+	display: inline-flex;
+	margin-left: 30px;
+	font-size: 14px;
+}
+
+.logo #logo{
+	font-weight: 600;
+	font-size: 2.5em;
+	width: 900px;
+	text-align: center;
+	align-items: center;
+	padding: 23px;
+	margin-left: 100px;
+}
+
+.logo .login .email{
+	padding: 10px;
+}
+
+.logo .login .password{
+	padding: 10px;
+}
+
+.logo #btn-login{
+	background: #4267b2;
+	height: 25px;
+	width: 80px;
+	margin-top: 30px;
+	color: #fff;
+	border: 1px solid #29487d;
+}
+
+.logo .login #txt-login
+{
+	padding-bottom: 5px;
+}
+
+.logo .login #login{
+	height: 25px;
+	width: 150px;
+	border: 1px solid;
+}
+
+.logo #quen-tk{
+	position: relative;
+	float: left;
+	margin-left: -240px;
+	margin-top: 60px;
+	text-decoration: none;
+	color: #9cb4d8;
+}
+
+/*///////////////////////////////////*/
+
+.body{
+	background: linear-gradient(#fff, #D3D8E8);
+	height: 625px;
+	display: flex;
+}
+
+.body .left{
+	width: 450px;
+	margin-left: 460px;
+}
+
+.body .left #slogan{
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 40px;
+	line-height: 29px;
+}
+
+.body .right{
+	margin-left: 130px;
+	margin-top: 15px;
+	width: 450px;
+}
+
+.body .right h1{
+	font-size: 40px;
+	padding-top: 15px;
+	color: #333;
+}
+
+.body .right p{
+	padding-top: 15px;
+	margin-bottom: 15px;
+	color: #333;
+	font-size: 18px;
+}
+
+.body .right input{
+	margin: 5px;
+	margin-left: -3px;
+	display: inline-flex;
+	width: 194px;
+	height: 39px;
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid #bdc7d8;
+	font-size: 18px; 
+}
+
+.body .right input:nth-child(5){
+	width: 393px;
+}
+
+.body .right input:nth-child(6){
+	width: 393px;
+}
+
+.body .right .birthday select{
+	width: 65px;
+	height: 30px;
+}
+
+.body .right .sex{
+	display: inline-flex;
+}
+
+.body .right .sex #btn-radio{
+	width: 15px;
+	margin-top: -10px;
+	margin-left: 3px;
+}
+
+.body .right .sex span{
+	padding-right: 10px;
+}
+
+.body .right a{
+	color: #4267b2;
+}
+
+.body .right #first-text-contract{
+	font-size: 12px;
+	width: 340px;
+}
+
+.body .right button{
+	width: 194px;
+	height: 39px;
+	border-radius: 5px;
+	background: linear-gradient(#67ae55, #578843);
+	border: 1px solid #2c5115;
+	box-shadow: inset 0 1px 1px #a4e388;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.body .right #last-text-contract{
+	font-size: 15px;
+	width: 400px;
+}
+
+/*////////////////////*/
+
+.end .language{
+	display: inline-flex;
+	text-align: center;
+	align-items: center;
+	font-size: 13px;
+	margin-top: 20px;
+	margin-left: 24%;
+	width: 100%;
+}
+
+.end .language a{
+	color: #4267b2;
+	padding: 8px;
+}
+
+.end h1:after{
+	content: "";
+    display: block;
+    width: 1000px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .2);
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.end .other{
+	font-size: 12px;
+	width: 1030px;
+	margin-top: 20px;
+	margin-left: 450px;
+}
+
+
+.end .other a{
+	color: #4267b2;
+	padding: 9px;
+	line-height: 20px;
+}
+
+.end #copyright{
+	margin-top: 30px;
+	font-size: 13px;
+	color: #333;
+	margin-left: 24%;
+}
